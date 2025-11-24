@@ -18,7 +18,7 @@ elif [ "$ARCH" = "aarch64" ]; then
   ARCH="arm64"
 fi
 
-CLI_URL="https://yolo-cli-releases.t3.storage.dev/yolo-${OS}-codespace-${ARCH}"
+CLI_URL="https://yolo-cli-releases.t3.storage.dev/yolo-${OS}-${ARCH}"
 curl -L "$CLI_URL" -o /tmp/yolo
 sudo mv /tmp/yolo /usr/local/bin/yolo
 sudo chmod +x /usr/local/bin/yolo
