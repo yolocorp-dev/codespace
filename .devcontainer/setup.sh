@@ -3,8 +3,9 @@ set -e
 
 echo "🚀 Setting up YOLO project environment..."
 
-
-
+# Update the system and install deps
+sudo apt-get update
+sudo apt-get install --yes xdg-utils
 
 # Install yolo CLI
 echo "📦 Installing YOLO CLI..."
