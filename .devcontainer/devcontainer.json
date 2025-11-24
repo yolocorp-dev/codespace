@@ -1,15 +1,15 @@
 {
   "name": "YOLO Project Environment",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
-
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "version": "latest",
       "moby": true
     }
   },
-
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
   "postCreateCommand": "bash .devcontainer/setup.sh",
-
   "remoteUser": "codespace"
 }
