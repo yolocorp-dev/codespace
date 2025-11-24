@@ -1,0 +1,22 @@
+# Node modules (if project uses Node.js)
+node_modules/
+
+# Python virtual environments (if project uses Python)
+venv/
+__pycache__/
+*.pyc
+
+# Go build artifacts (if project uses Go)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
