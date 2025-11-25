@@ -1,18 +1,13 @@
-# YOLO Project
+# YOLO Codespace Template
 
-This repository is automatically configured for your YOLO Corp project. The development environment is being set up automatically in GitHub Codespaces.
+This GitHub Codespace comes with YOLO CLI pre-installed and ready to use.
 
 ## Getting Started
 
-The setup script is running automatically. Once complete, you can:
-
-1. **Run tests**: `yolo deploy --auto-commit`
-
-## Commands
-
-- `yolo deploy` - Build and test your application
-- `yolo whoami` - Verify your authentication
-- `yolo doctor` - Check that all tools are configured correctly
+1. **Login**: `yolo whoami`
+2. **Enroll in a project**: `yolo enroll`
+3. **Navigate to project**: `cd <project-directory>`
+4. **Run tests**: `yolo deploy`
 
 ## Need Help?
 

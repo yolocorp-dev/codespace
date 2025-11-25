@@ -29,8 +29,3 @@ sudo chmod +x /usr/local/bin/yolo
 echo ""
 echo "✓ YOLO CLI installed!"
 echo ""
-echo "Next steps:"
-echo "  1. yolo login"
-echo "  2. yolo enroll"
-echo "  3. cd yolo-*"
-echo "  4. yolo deploy"
