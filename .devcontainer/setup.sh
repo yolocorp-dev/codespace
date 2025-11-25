@@ -5,10 +5,6 @@ echo "🚀 Setting up YOLO project environment..."
 
 sudo chown -R codespace:codespace /var/run/docker.sock
 
-# Update the system and install deps
-sudo apt-get update
-sudo apt-get install --yes xdg-utils
-
 # Install yolo CLI
 echo "📦 Installing YOLO CLI..."
 ARCH=$(uname -m)
@@ -29,3 +25,7 @@ sudo chmod +x /usr/local/bin/yolo
 echo ""
 echo "✓ YOLO CLI installed!"
 echo ""
+
+echo "Updating the system and installing deps"
+sudo apt-get update
+sudo apt-get install --yes xdg-utils
