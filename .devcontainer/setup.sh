@@ -21,7 +21,9 @@ CLI_URL="https://yolo-cli-releases.t3.storage.dev/yolo-${OS}-${ARCH}"
 curl -L "$CLI_URL" -o /tmp/yolo
 sudo mv /tmp/yolo /usr/local/bin/yolo
 sudo chmod +x /usr/local/bin/yolo
-/usr/local/bin/yolo completion bash > /etc/bash_completion.d/yolo
+
+# add autocomplete
+sudo bash -c "/usr/local/bin/yolo completion bash > /etc/bash_completion.d/yolo"
 
 echo ""
 echo "✓ YOLO CLI installed!"
