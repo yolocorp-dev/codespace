@@ -3,6 +3,8 @@ set -e
 
 echo "🚀 Setting up YOLO project environment..."
 
+sudo chown -R codespace:codespace /var/run/docker.sock
+
 # Update the system and install deps
 sudo apt-get update
 sudo apt-get install --yes xdg-utils
