@@ -11,4 +11,4 @@ This GitHub Codespace comes with YOLO CLI pre-installed and ready to use.
 
 ## Need Help?
 
-Visit [YOLO Corp Documentation](https://yolocorp.dev/docs) or join our community!
+Visit [YOLO Corp Documentation](https://yolocorp.dev/doc) or join our community!
